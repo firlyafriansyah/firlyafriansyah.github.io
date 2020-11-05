@@ -1,6 +1,8 @@
 // Service Worker Registration
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("/service-worker.js");
+  navigator.serviceWorker
+    .register("/service-worker.js")
+    .then(() => navigator.serviceWorker.ready);
 } else {
   console.log("Serviceworker tidak di dukung");
 }

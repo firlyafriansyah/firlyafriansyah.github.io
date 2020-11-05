@@ -61,12 +61,13 @@ if (workbox) {
     { url: "/src/view/standing/index.js", revision: "1" },
     { url: "/src/view/teamdetail/index.js", revision: "1" },
     { url: "/src/view/Welcome/index.js", revision: "1" },
-    { url: "https://api.football-data.org/v2/competitions/", revision: "1" },
   ]);
 
   workbox.routing.registerRoute(
-    new RegExp("https://api.football-data.org/"),
-    new workbox.strategies.StaleWhileRevalidate()
+    ({ url }) => url.origin === "https://api.football-data.org",
+    new workbox.strategies.CacheFirst({
+      cacheName: "api-data",
+    })
   );
 } else {
   console.log("Workbox Failed");

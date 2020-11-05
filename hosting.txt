@@ -1,1 +1,2 @@
-Firebase = 
+Firebase = https://football-center-6e712.web.app
+Github = https://firlyafriansyah.github.io/
