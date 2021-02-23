@@ -65,7 +65,7 @@ if (workbox) {
 
   workbox.routing.registerRoute(
     ({ url }) => url.origin === "https://api.football-data.org",
-    new workbox.strategies.CacheFirst({
+    new workbox.strategies.NetworkFirst({
       cacheName: "api-data",
     })
   );
