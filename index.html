@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Fun Trekking Sentul">
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Fun Trekking Sentul</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Fun Trekking Sentul</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Tentang Kami</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Tempat Wisata</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Pilihan Paket</a>
+                        </li>
+                    </ul>
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/web_content/hero_image.png" alt="hero_image" class="home__img">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Habiskan waktu liburan dengan</span>
+                        <h1 class="home__data-title">Jelajahi <br> Tempat yang <b>Indah <br> Bersama kami</b></h1>
+                        <a href="#place" class="button">Explore</a>
+                    </div>
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://instagram.com/fun_trekking_sentul?igshid=YmMyMTA2M2Y=" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-whatsapp-fill"></i>
+                        </a>
+                    </div>
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">5 tempat terbaik untuk dikunjungi</span>
+                            <a href="#discover" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                        <div class="home__info-overlay">
+                            <img src="assets/img/web_content/leuwi_hejo1.jpg" alt="image_overlay" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Tentang kami<br> Fun Trekking Sentul</h2>
+                        <p class="about__description">Fun trekking sentul merupakan agensi traveling di kawasan bogor yang bisa nemenin kamu menjelajahi indahnya tempat dan lokasi-lokasi unik di Bogor.
+                        </p>
+                        <a href="#place" class="button">Pesan Paket Liburan</a>
+                    </div>
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/web_content/leuwi_asih1.jpg" alt="about_image_overlay1" class="about__img-one">
+                        </div>
+                        <div class="about__img-overlay">
+                            <img src="assets/img/web_content/leuwi_hejo1.jpg" alt="about_image_overlay2" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">5 tempat terbaik <br> untuk dikunjungi</h2>
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/web_content/goa_garunggang.png" alt="goa_garunggang" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title" style="text-shadow: 2px 2px 8px #000000;">Goa Garunggung</h2>
+                                <span class="discover__description">Fun Trekking Sentul</span>
+                            </div>
+                        </div>
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/web_content/curug_love.png" alt="curug_love" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title" style="text-shadow: 2px 2px 8px #000000;">Curug Love</h2>
+                                <span class="discover__description">Fun Trekking Sentul</span>
+                            </div>
+                        </div>
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/web_content/leuwi_asih2.png" alt="leuwi_asih2" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title" style="text-shadow: 2px 2px 8px #000000;">Leuwi Asih</h2>
+                                <span class="discover__description">Fun Trekking Sentul</span>
+                            </div>
+                        </div>
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/web_content/leuwi_hejo2.png" alt="leuwi_hejo2" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title" style="text-shadow: 2px 2px 8px #000000;">Leuwi Hejo</h2>
+                                <span class="discover__description">Fun Trekking Sentul</span>
+                            </div>
+                        </div>
+                        <!--==================== DISCOVER 5 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/web_content/leuwi_lieuk.png" alt="leuwi_lieuk class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title" style="text-shadow: 2px 2px 8px #000000;">Leuwi Lieuk</h2>
+                                <span class="discover__description">Fun Trekking Sentul</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">Dengan pengalaman kami <br> kami akan menemani liburan anda</h2>
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">10+</h2>
+                            <span class="experience__description">Kru <br> pendamping</span>
+                        </div>
+                        <div class="experience__data">
+                            <h2 class="experience__number">15+</h2>
+                            <span class="experience__description">Paket <br> Wisata</span>
+                        </div>
+                        <div class="experience__data">
+                            <h2 class="experience__number">20+</h2>
+                            <span class="experience__description">Destinasi <br> Wisata</span>
+                        </div>
+                    </div>
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/web_content/team.png" alt="team" class="experience__img-one">
+                        </div>
+                        <div class="experience__overlay">
+                            <img src="assets/img/web_content/team2.png" alt="team2" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Video Tour</h2>
+                <div class="video__container container">
+                    <p class="video__description">Mari berpetualang mengelilingi indahnya alam bersama kami.
+                    </p>
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Pilihan Paket Liburan</h2>
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="../assets/img/paket_1/cover_1.png" alt="cover1" class="place__img" style="filter: blur(0.7px)"/>
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number" style="text-shadow: 4px 4px 8px #000000">4,9</span>
+                            </span>
+                            <div class="place__data">
+                                <h3 class="place__title" style="text-shadow: 2px 2px 8px #000000">Paket 1</h3>
+                                <span class="place__subtitle" style="text-shadow: 2px 2px 8px #000000">Leuwi Asih</span>
+                                <strike class="place__price" style="text-shadow: 2px 2px 8px #000000; font-size: 12px">Rp150rb</strike>
+                                <span class="place__price" style="text-shadow: 2px 2px 8px #000000">Rp135rb</span>
+                            </div>
+                        </div>
+                        <a href="./package/paket_1.html" class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+
+                    <!--==================== PLACES CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="../assets/img/paket_2/cover_2.png" alt="cover2" class="place__img" style="filter: blur(0.7px)"/>
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number" style="text-shadow: 2px 2px 8px #000000">5,0</span>
+                            </span>
+                            <div class="place__data">
+                                <h3 class="place__title" style="text-shadow: 2px 2px 8px #000000">Paket 2</h3>
+                                <span class="place__subtitle" style="text-shadow: 2px 2px 8px #000000">Curug Bidadari</span>
+                                <strike class="place__price" style="text-shadow: 2px 2px 8px #000000; font-size: 12px">Rp175rb</strike>
+                                <span class="place__price" style="text-shadow: 2px 2px 8px #000000">Rp150rb</span>
+                            </div>
+                        </div>
+                        <a href="./package/paket_2.html" class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+
+                    <!--==================== PLACES CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="../assets/img/paket_3/cover_3.png" alt="cover3" class="place__img" style="filter: blur(0.7px)"/>
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number" style="text-shadow: 2px 2px 8px #000000">4,9</span>
+                            </span>
+                            <div class="place__data">
+                                <h3 class="place__title" style="text-shadow: 2px 2px 8px #000000">Paket 3</h3>
+                                <span class="place__subtitle" style="text-shadow: 2px 2px 8px #000000">Curug Cibingbin, Curug Perawan, ...</span>
+                                <strike class="place__price" style="text-shadow: 2px 2px 8px #000000; font-size: 12px">Rp175rb</strike>
+                                <span class="place__price" style="text-shadow: 2px 2px 8px #000000">Rp150rb</span>
+                            </div>
+                        </div>
+                        <a href="./package/paket_3.html" class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+
+                    <!--==================== PLACES CARD 4 ====================-->
+                    <div class="place__card">
+                        <img src="../assets/img/paket_4/cover_4.png" alt="cover4" class="place__img" style="filter: blur(0.7px)"/>
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number" style="text-shadow: 2px 2px 8px #000000">4,8</span>
+                            </span>
+                            <div class="place__data">
+                                <h3 class="place__title">Paket 4</h3>
+                                <span class="place__subtitle" style="text-shadow: 2px 2px 8px #000000">Curug Cisalada, Curug Ngumpet, ...</span>
+                                <strike class="place__price" style="text-shadow: 2px 2px 8px #000000; font-size: 12px">Rp250rb</strike>
+                                <span class="place__price" style="text-shadow: 2px 2px 8px #000000">Rp200rb</span>
+                            </div>
+                        </div>
+
+                        <a href="./package/paket_4.html" class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+
+                    <!--==================== PLACES CARD 5 ====================-->
+                    <div class="place__card">
+                        <img src="../assets/img/paket_5/cover_5.png" alt="cover5" class="place__img" style="filter: blur(0.7px)"/>
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number" style="text-shadow: 2px 2px 8px #000000">4,8</span>
+                            </span>
+                            <div class="place__data">
+                                <h3 class="place__title" style="text-shadow: 2px 2px 8px #000000">Paket 5</h3>
+                                <span class="place__subtitle" style="text-shadow: 2px 2px 8px #000000">Bukit Paniisan, Curug Cibingbin</span>
+                                <strike class="place__price" style="text-shadow: 2px 2px 8px #000000; font-size: 12px">Rp200rb</strike>
+                                <span class="place__price" style="text-shadow: 2px 2px 8px #000000">Rp175rb</span>
+                            </div>
+                        </div>
+
+                        <a href="./package/paket_5.html" class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+
+                    <!--==================== PLACES CARD SEE ALL ====================-->
+                    <div class="place__card" style="background-color: hsl(190, 64%, 22%);">                        
+                        <div class="place__content">
+                            <div class="place__data" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%;">
+                                <h3 class="place__title" style="text-align: center">Lihat Semua</h3>
+                                <h3 class="place__title" style="text-align: center">Paket Liburan</h3>
+                            </div>
+                        </div>
+                        <a href="./package.html" class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Fun Trekking Sentul</h3>
+                        <p class="footer__description">Jelajahi indahnya alam bersama kami</p>
+                    <div>
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="footer__social">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                    <a href="https://instagram.com/fun_trekking_sentul?igshid=YmMyMTA2M2Y=" target="_blank" class="footer__social">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                        <i class="ri-youtube-fill"></i>
+                    </a>
+                </div>
+            </div>  
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2022 Fun Trekking Sentul. All rigths reserved.</p>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
