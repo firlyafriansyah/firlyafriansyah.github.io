@@ -959,6 +959,31 @@ input {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .additional-captions {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .additional-subcaptions {
+    width: 100%;
+  }
+}
+
+.title {
+  text-align: left;
+}
+
+.additional-subcaptions {
+  width: 60%;
+}
+
+@media screen and (max-width: 500px) {
+  .additional-subcaptions {
+    width: 100%;
+  }
+}
+
 /* For large devices */
 @media screen and (min-width: 1024px) {
   .container {
